@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainrot Wonderland</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: #FF6347;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            font-size: 4em;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #32CD32;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+        .container {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #ffebcd;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .random-text {
+            font-size: 1.5em;
+            color: #8A2BE2;
+            font-style: italic;
+            margin: 30px 0;
+        }
+        .confused {
+            background-color: #ffff00;
+            color: #000;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        .floating-button {
+            background-color: #ff4500;
+            border: none;
+            padding: 15px 30px;
+            color: white;
+            font-size: 1.5em;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 50px;
+            animation: float 2s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        .rainbow-text {
+            font-size: 2em;
+            background-image: linear-gradient(45deg, #ff00ff, #ff9900, #33cc33, #0099ff);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Brainrot Wonderland!</h1>
+
+    <div class="container">
+        <h2>What is happening right now?</h2>
+        <p class="random-text">I just saw a cat wearing a pineapple, and I don't know how to feel about it. 😵</p>
+
+        <p class="confused">Am I supposed to be confused? Yes. The answer is always yes. 😧</p>
+
+        <img src="https://via.placeholder.com/200" alt="Random Brainrot Image">
+
+        <p class="random-text">Do potatoes dream of mashed potatoes? Can we prove that they're secretly sentient? 🥔🤯</p>
+
+        <h2 class="rainbow-text">THE TIME FOR BRAINROT IS NOW 🌈</h2>
+
+        <p class="random-text">I just tried to pet a cloud. It was not fluffy. It was not a cloud. It was an illusion. 🦋</p>
+
+        <button class="floating-button" onclick="alert('Welcome to the void... 🌀')">Press Me If You’re Ready</button>
+    </div>
+
+    <footer>
+        <p style="font-size: 1.2em; margin-top: 50px;">Do you ever wonder if the spoon is secretly judging you? 🥄💭</p>
+    </footer>
+
+</body>
+</html>
